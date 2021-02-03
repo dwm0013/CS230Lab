@@ -46,5 +46,15 @@
                 </div>
             </div>
         </div>
+        <div class="column">
+            <div class="card">
+                <img src="images/4.jpg">
+                <div class="container">
+                    <h2>CEO</h2>
+                    <p>Harrison Ford</p>
+                    <p>Email: Butter@gmail.com</p>
+                </div>
+            </div>
+        </div>
     </div>
 </main>
