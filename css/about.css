@@ -1,4 +1,52 @@
 main {
+    font-family: Tahoma, sans-serif;
+}
+
+.about {
+    background-image: url("/images/greyredtrack.jpg");
+    background-position: center 42%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(0, 0, 0);
+    height: 200px;
+    
+}
+.toph {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 50px;
+    text-shadow: 0 0 3px white;
+}
+
+.topp {
+   text-align: center;
+   font-size: 30px;
+   text-shadow: 0 0 3px white;
+}
+
+.cardphoto{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.card{
+    text-align: center;
+    box-shadow: 0 4px 8px 0 #b3b3b3f5;
+    padding: 16px 16px 16px 16px;
+    width: 350px;
+    margin: 0 auto;
+}
+
+.para{
+    width: 40%;
+    height: 300px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px 0 #b3b3b3f5;
+    text-align: center;
+}
+
+/* main {
     font-family:'Franklin Gothic Medium';
     text-align: center;
 }
@@ -18,7 +66,7 @@ img {
 }
 
 .column {
-    float: left;
+    float: right;
     margin-right: 16px;
     margin: 10px;
     width: 22%;
@@ -28,3 +76,9 @@ img {
     box-shadow: 0 4px 8px 0 #b3b3b3f5;
     padding: 0 16px 0 16px;
 }
+
+.aboutme {
+    float: left;
+    color: blueviolet;
+}
+*/
