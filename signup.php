@@ -24,6 +24,7 @@ require "includes/header.php"
 
                             </div>
                         </div>
+                        
                         <input type="text" class="form-control" name="uname" placeholder="Username" required autofocus>
 
 
