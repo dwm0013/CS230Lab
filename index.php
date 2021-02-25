@@ -1,3 +1,7 @@
+<?php
+require 'includes/header.php';
+?>
+
 <title>Motorsport Reviews</title>
 <main>
     <link rel="stylesheet" href="css/about.css">
