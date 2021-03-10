@@ -1,0 +1,54 @@
+h1 {
+    text-align: center;
+}
+
+h3 {
+    color: goldenrod;
+}
+
+p {
+    color: black;
+}
+
+img {
+    width: 250px;
+    height: 200px;
+    margin-top: 10px;
+    object-fit: contain;
+}
+
+.gallery-container {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.card {
+    border-radius: 10px;
+    margin: 10px;
+    width: 20%;
+    max-width: 280px;
+    height: auto;
+    padding: 5px;
+    background-color: lightgrey;
+    transition: transform .2s;
+}
+
+.gallery-container a {
+    
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.gallery-container a:hover {
+    opacity: 70%;
+    text-decoration-color: goldenrod;
+}
+
+.card:hover {
+    transform: scale(1.1);
+  }
