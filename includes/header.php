@@ -1,3 +1,6 @@
+<?php
+        session_start();
+    ?>
 <!DOCTYPE html>
 <html>
 
@@ -29,9 +32,6 @@
 
 
 <header>
-    <?php
-        session_start();
-    ?>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="d-md-flex d-block flex-row mx-md-auto mx-0">
             <a class="navbar-brand" href="#">Fanatic</a>
