@@ -3,39 +3,38 @@ main {
 }
 
 .about {
-    background-image: url("/images/greyredtrack.jpg");
+    background-image: url("/images/greyredtrack.png");
     background-position: center 42%;
     background-repeat: no-repeat;
     background-size: cover;
-    color: rgb(0, 0, 0);
     height: 200px;
-    
 }
 .toph {
     text-align: center;
-    padding-top: 50px;
-    font-size: 50px;
-    text-shadow: 0 0 3px white;
+    padding-top: 30px;
+    font-size: 60px;
+    text-shadow: 1px 1px rgb(255, 255, 255);
 }
 
 .topp {
    text-align: center;
-   font-size: 30px;
-   text-shadow: 0 0 3px white;
+   font-size: 50px;
+   text-shadow: 1px 1px rgb(255, 255, 255);
 }
 
 .cardphoto{
     width: 250px;
     height: 250px;
     object-fit: cover;
+    margin: 0 auto;
 }
 
 .card{
     text-align: center;
     box-shadow: 0 4px 8px 0 #b3b3b3f5;
     padding: 16px 16px 16px 16px;
-    width: 350px;
-    margin: 0 auto;
+    width: 300px;
+    margin: 16px;
 }
 
 .para{
@@ -66,12 +65,12 @@ img {
 }
 
 .column {
-    float: right;
     margin-right: 16px;
     margin: 10px;
     width: 22%;
+    float: center;
 }
-
+/*
 .card {
     box-shadow: 0 4px 8px 0 #b3b3b3f5;
     padding: 0 16px 0 16px;

@@ -34,7 +34,7 @@
 <header>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="d-md-flex d-block flex-row mx-md-auto mx-0">
-            <a class="navbar-brand" href="#">Fanatic</a>
+            <a class="navbar-brand" href="#">Motorsports Reviews</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -59,6 +59,9 @@
                     else {
                         echo '<li class="nav-item">
                         <a class="nav-link" href="login.php">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="signup.php">Signup</a>
                     </li>';
                     }
                     ?>
